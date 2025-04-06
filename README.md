@@ -9,7 +9,7 @@ If running rootless Podman, enable the container_use_devices SELinux boolean:
 
 Place input images within the `input/` directory
 
-Place configuration file within the `config/` directory.  The Flex and Flux example configuration files are included from: https://github.com/ostris/ai-toolkit/tree/main/config/examples
+Place configuration file within the `config/` directory.  The Flex and Flux example configuration files are included from: https://github.com/ostris/ai-toolkit/tree/main/config/examples  If you are using an existing configuration file, make sure to set `folder_path: "/ai-toolkit/input"` within the config
 
 Build container with: 
 `podman build --device nvidia.com/gpu=all . -t ai-toolkit`
