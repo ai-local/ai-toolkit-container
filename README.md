@@ -1,3 +1,5 @@
+Video walk through:  https://www.youtube.com/watch?v=iT9_ehYXiSM
+
 This repository contains a Containerfile to build and run a container with the ai-toolkit (https://github.com/ostris/ai-toolkit), which can be used to generate finetuned diffusion models or LoRA's.
 
 For use with an NVIDIA GPU with the NVIDIA container toolkit installed and configured for use with Podman.
